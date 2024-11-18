@@ -10,7 +10,7 @@ Each project has been thoughtfully created to help you build practical skills an
 
 ### Excel Projects:
 
-- 
+- [CocaCola Analysis](https://github.com/AMandaddi/Data_Analysis-Projects/tree/main/CocaCola%20Sales%20Analysis)
 
 ### SQL Projects:
 
