@@ -14,7 +14,7 @@ Each project has been thoughtfully created to help you build practical skills an
 
 ### SQL Projects:
 
-- 
+- [Walmart Sales Analysis](https://github.com/AMandaddi/Data_Analysis-Projects/tree/main/Walmart_Sales_Analysis)
 
 ### Power BI Projects:
 
