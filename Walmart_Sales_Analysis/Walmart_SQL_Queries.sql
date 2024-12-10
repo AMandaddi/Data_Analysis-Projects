@@ -182,3 +182,32 @@ FROM sales
 GROUP BY product_line
 ORDER BY total_quantity DESC;
 GO
+
+-- Sales Analysis
+-- 1. Number of sales made in each time of the day per weekday
+SELECT day_name, time_of_day, COUNT(invoice_id) AS total_sales
+FROM sales
+WHERE day_name NOT IN ('Saturday', 'Sunday')
+GROUP BY day_name, time_of_day;
+GO
+
+-- 2. Identify the customer type that generates the highest revenue.
+SELECT TOP 1 customer_type, SUM(total) AS total_sales
+FROM sales
+GROUP BY customer_type
+ORDER BY total_sales DESC;
+GO
+
+-- 3. Which city has the largest tax percent/ VAT (Value Added Tax)?
+SELECT TOP 1 city, SUM(tax_5pct) AS total_VAT
+FROM sales
+GROUP BY city
+ORDER BY total_VAT DESC;
+GO
+
+-- 4. Which customer type pays the most in VAT?
+SELECT TOP 1 customer_type, SUM(tax_5pct) AS total_VAT
+FROM sales
+GROUP BY customer_type
+ORDER BY total_VAT DESC;
+GO
