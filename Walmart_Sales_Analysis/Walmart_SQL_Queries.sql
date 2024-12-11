@@ -27,7 +27,7 @@ CREATE TABLE sales (
 );
 GO
 
--- Enable bulk inserts
+-- Enable bulk inserts 
 EXEC sp_configure 'show advanced options', 1;
 RECONFIGURE;
 EXEC sp_configure 'Ad Hoc Distributed Queries', 1;
@@ -43,7 +43,7 @@ WITH (
 );
 GO
 
--- Feature Engineering
+-- Feature Engineering --
 -- 1. Time_of_day
 ALTER TABLE sales ADD time_of_day VARCHAR(20);
 GO
@@ -72,7 +72,7 @@ UPDATE sales
 SET month_name = DATENAME(MONTH, [date]);
 GO
 
--- Exploratory Data Analysis (EDA)
+-- Exploratory Data Analysis (EDA) --
 -- Generic Questions
 -- 1. How many distinct cities are present in the dataset?
 SELECT DISTINCT city FROM sales;
@@ -82,7 +82,7 @@ GO
 SELECT DISTINCT branch, city FROM sales;
 GO
 
--- Product Analysis
+-- Product Analysis --
 -- 1. How many distinct product lines are there in the dataset?
 SELECT COUNT(DISTINCT product_line) AS total_product_lines FROM sales;
 GO
@@ -183,7 +183,7 @@ GROUP BY product_line
 ORDER BY total_quantity DESC;
 GO
 
--- Sales Analysis
+-- Sales Analysis --
 -- 1. Number of sales made in each time of the day per weekday
 SELECT day_name, time_of_day, COUNT(invoice_id) AS total_sales
 FROM sales
@@ -213,7 +213,7 @@ ORDER BY total_VAT DESC;
 GO
 
 
--- Customer Analysis
+-- Customer Analysis --
 -- 1. How many unique customer types does the data have?
 SELECT COUNT(DISTINCT customer_type) AS unique_customer_types FROM sales;
 GO
