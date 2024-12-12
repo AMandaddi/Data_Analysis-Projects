@@ -26,3 +26,36 @@ The dataset consists of various attributes, including:
 
 This data enables us to explore patterns that enhance marketing, sales, and customer engagement strategies.
 
+---
+
+## Approach
+
+### 1. Database Setup and Data Ingestion
+- Created a database to organize and store the sales data.
+- Imported the data into the database for efficient querying and analysis.
+
+### 2. Feature Engineering
+Enhanced the dataset by adding the following useful columns:
+- **Time of Day**: Categorized sales into Morning, Afternoon, or Evening based on the time of the transaction.
+- **Day of the Week**: Identified which days of the week generated the most sales.
+- **Month of the Year**: Analyzed seasonal trends by tracking sales by month.
+
+### 3. Exploratory Data Analysis (EDA)
+
+#### Business Insights:
+- Analyzed the geographic distribution of sales to understand branch and city performance.
+- Identified the most popular product lines and their sales performance to highlight successful categories.
+
+#### Customer Insights:
+- Segmented customers into Regular and Member categories to determine spending habits and preferences.
+
+#### Time-Based Insights:
+- Explored sales by time of day and day of the week to uncover peak sales periods and understand demand patterns.
+
+### 4. Key Findings
+- **Product Performance**: Certain product lines consistently outperformed others, indicating areas for growth focus.
+- **Customer Segments**: Members spent more on average, suggesting targeted promotions could further boost sales.
+- **Sales Trends**: Identified clear patterns in sales volume based on time of day and day of the week, which can help optimize staffing and promotions.
+
+---
+
