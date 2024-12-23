@@ -46,3 +46,71 @@ The project uses multiple interconnected tables containing the necessary informa
 | `plate_number`| Registered plate number of the car        |  
 | `car_make`    | Manufacturer of the car                   |  
 | `car_model`   | Model of the car                          |  
+
+### **3. Facebook Event Check-In Table**  
+| Column        | Description                                |  
+|---------------|--------------------------------------------|  
+| `person_id`   | Unique ID of the person checking in       |  
+| `event_id`    | Unique ID of the event                    |  
+| `event_name`  | Name of the event                         |  
+| `date`        | Date of the check-in                     |  
+
+### **4. Get Fit Now Members Table**  
+| Column                  | Description                                |  
+|-------------------------|--------------------------------------------|  
+| `id`                    | Unique member ID                          |  
+| `person_id`             | Unique ID of the person                   |  
+| `name`                  | Name of the member                        |  
+| `membership_start_date` | Date the person became a member           |  
+| `membership_status`     | Membership tier of the person             |  
+
+### **5. Get Fit Now Check-In Table**  
+| Column          | Description                                |  
+|-----------------|--------------------------------------------|  
+| `membership_id` | Unique ID of the member                   |  
+| `check_in_date` | Date the member checked into the gym       |  
+| `check_in_time` | Time the member checked into the gym       |  
+| `check_out_time`| Time the member checked out of the gym     |  
+
+### **6. Income Table**  
+| Column         | Description                                |  
+|----------------|--------------------------------------------|  
+| `ssn`          | Unique social security number of the person |  
+| `annual_income`| Annual income of the person in USD         |  
+
+### **7. Interview Table**  
+| Column        | Description                                |  
+|---------------|--------------------------------------------|  
+| `person_id`   | Unique ID of the person                   |  
+| `transcript`  | Official transcript of the person's interview |  
+
+### **8. Person Table**  
+| Column               | Description                                |  
+|----------------------|--------------------------------------------|  
+| `id`                 | Unique ID of the person                   |  
+| `name`               | Name of the person                        |  
+| `license_id`         | Unique driver's license number            |  
+| `address_number`     | Apartment number of the person            |  
+| `address_street_name`| Street name of the person's address       |  
+| `ssn`                | Unique social security number of the person |  
+
+---
+
+## How to Approach  
+
+1. Start by retrieving the **crime scene report** using SQL queries.  
+2. Use the clues from the report to explore other tables and uncover connections.  
+3. Analyze the data carefully to identify the murderer and the mastermind.  
+
+---
+
+## Tools  
+
+- SQL Database (Compatible with MySQL, SQLite, PostgreSQL, etc.)  
+- SQL Editor or IDE (e.g., MySQL Workbench, SQLite Browser)  
+
+---
+
+## License  
+
+This project is based on publicly available data provided by **NUKnightLab**.  
