@@ -21,3 +21,28 @@ Your task is to query the database to retrieve the crime scene report, identify 
 - Find and analyze the data to solve the murder mystery.  
 
 ---
+
+## Database Schema  
+
+The project uses multiple interconnected tables containing the necessary information. Below is a summary of the schema:  
+
+### **1. Crime Scene Report Table**  
+| Column       | Description                                |  
+|--------------|--------------------------------------------|  
+| `date`       | Date of the crime                         |  
+| `type`       | Type of the crime                         |  
+| `description`| Official police report of the crime       |  
+| `city`       | City where the crime occurred             |  
+
+### **2. Drivers License Table**  
+| Column        | Description                                |  
+|---------------|--------------------------------------------|  
+| `id`          | Unique driver's license number            |  
+| `age`         | Age of the driver                         |  
+| `height`      | Height of the driver                      |  
+| `eye_color`   | Eye color of the driver                   |  
+| `hair_color`  | Hair color of the driver                  |  
+| `gender`      | Gender of the driver                      |  
+| `plate_number`| Registered plate number of the car        |  
+| `car_make`    | Manufacturer of the car                   |  
+| `car_model`   | Model of the car                          |  
