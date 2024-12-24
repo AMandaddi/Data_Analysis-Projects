@@ -15,7 +15,8 @@ Each project has been thoughtfully created to help you build practical skills an
 ### SQL Projects:
 
 - [Walmart Sales Analysis](https://github.com/AMandaddi/Data_Analysis-Projects/tree/main/Walmart_Sales_Analysis)
-
+- [Instagram Clone User Data Analysis](https://github.com/AMandaddi/Data_Analysis-Projects/tree/main/Instagram%20Clone%20User%20Data%20Analysis)
+  
 ### Power BI Projects:
 
 - 
