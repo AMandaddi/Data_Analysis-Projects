@@ -25,6 +25,7 @@ Each project has been thoughtfully created to help you build practical skills an
 
 - [Customer Segmentation with RFM Model](https://github.com/AMandaddi/Data_Analysis-Projects/tree/main/Online_Retail_Data)
 - [Netflix Data Analysis](https://github.com/AMandaddi/Data_Analysis-Projects/tree/main/NetflixData_Analysis)
+- [Online_Retail_Data](https://github.com/AMandaddi/Data_Analysis-Projects/tree/main/Online_Retail_Data)
 
 I hope these projects help you develop the skills to manipulate and analyze data effectively. Feel free to modify and improve upon the existing work. Let’s continue learning and growing together in the field of data analysis!
 
