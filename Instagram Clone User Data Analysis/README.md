@@ -52,3 +52,48 @@ This project involves analyzing datasets generated from a clone of the popular p
 
 ---
 
+### **Comments Table**
+| Column          | Description                           |
+|------------------|---------------------------------------|
+| `id`            | Unique comment ID                    |
+| `comment_text`  | The text of the comment              |
+| `user_id`       | ID of the user who commented         |
+| `photo_id`      | ID of the photo the comment was made on|
+| `created_at`    | Date and time the comment was made   |
+
+---
+
+### **Likes Table**
+| Column      | Description                          |
+|-------------|--------------------------------------|
+| `user_id`   | ID of the user who liked            |
+| `photo_id`  | ID of the photo liked               |
+| `created_at`| Date and time the like was made     |
+
+---
+
+### **Follows Table**
+| Column        | Description                          |
+|---------------|--------------------------------------|
+| `follower_id` | ID of the user who is following     |
+| `followee_id` | ID of the user being followed       |
+| `created_at`  | Date and time the follow occurred   |
+
+---
+
+### **Tags Table**
+| Column      | Description                          |
+|-------------|--------------------------------------|
+| `id`        | Unique tag ID                       |
+| `tag_name`  | Name of the hashtag                 |
+| `created_at`| Date and time the tag was created   |
+
+---
+
+### **Junction Table: Photos-Tags**
+| Column      | Description                          |
+|-------------|--------------------------------------|
+| `photo_id`  | ID of the photo where the tag is used|
+| `tag_id`    | ID of the tag used                  |
+
+---
