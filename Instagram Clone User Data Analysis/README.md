@@ -30,3 +30,25 @@ This project involves analyzing datasets generated from a clone of the popular p
 - Detecting potential bots and celebrity accounts.  
 
 ---
+
+## Datasets
+
+### **Users Table**
+| Column      | Description                          |
+|-------------|--------------------------------------|
+| `id`        | Unique user ID                      |
+| `username`  | Unique username                     |
+| `created_at`| Date and time the account was created|
+
+---
+
+### **Photos Table**
+| Column      | Description                          |
+|-------------|--------------------------------------|
+| `id`        | Unique photo ID                     |
+| `image_url` | URL of the photo                    |
+| `user_id`   | ID of the user who uploaded the photo|
+| `created_at`| Date and time the photo was uploaded|
+
+---
+
