@@ -14,3 +14,19 @@ With the ever-growing influence of social media, analytics has become central to
 - **Competitive Analysis**  
 - **Operational Efficiency**
 
+---
+
+## Project Description
+
+This project involves analyzing datasets generated from a clone of the popular photo-sharing app, Instagram. These datasets include users, photos, likes, follows, comments, tags, and more. The goal of this analysis is to derive insights that can assist in:
+
+- Creating a reward system for long-term and loyal users.  
+- Scheduling ad campaigns for maximum effectiveness.  
+- Designing email campaigns to re-engage inactive and idle users.  
+- Organizing contests to increase user engagement.  
+- Monitoring user activity levels.  
+- Evaluating progress toward monthly targets set by investors.  
+- Identifying trending hashtags for targeted marketing campaigns.  
+- Detecting potential bots and celebrity accounts.  
+
+---
